@@ -2,6 +2,7 @@
 <html lang="ar">
 <head>
 <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>موقعي الأول</title>
 
 <style>
@@ -10,10 +11,40 @@ body {
     font-family: Arial;
     background: linear-gradient(to right, #000000, #434343);
     color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    width: 100%;
     text-align: center;
-    padding-top: 50px;
+}
+h1 {
+    color: gold;
+    font-size: 50px;
 }
 
+p {
+    font-size: 25px;
+}
+
+img {
+    width: 250px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 20px;
+    background: gold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
 h1 {
     color: gold;
 }
